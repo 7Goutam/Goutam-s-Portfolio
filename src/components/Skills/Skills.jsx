@@ -1,9 +1,11 @@
+import { SiTailwindcss, SiJavascript } from "react-icons/si";
+
 const skills = [
     { name: "HTML", icon: "🌐" },
     { name: "CSS", icon: "🎨" },
-    { name: "JavaScript", icon: "🟨" },
+    { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
     { name: "React", icon: "⚛️" },
-    { name: "Tailwind CSS", icon: "💨" },
+    { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" /> },
     { name: "Git & GitHub", icon: "🔧" },
     { name: "Node.js", icon: "🌿" },
     { name: "MongoDB", icon: "🍃" },
