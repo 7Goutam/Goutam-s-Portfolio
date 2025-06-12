@@ -12,15 +12,20 @@ const Navbar = () => {
   ];
 
   return (
-    <div className=" bg-[#151515] w-full fixed top-0 left-0 shadow-md z-50">
+    <div className="bg-[#151515] w-full fixed top-0 left-0 shadow-md z-50">
       <div className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
         <h1 className="text-2xl font-bold text-white">MyPortfolio</h1>
 
+        {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8">
-          {links.map(({ id, text }) => (
+          {links.map(({ id, text }, index) => (
             <li
               key={id}
-              className="text-white hover:text-cyan-400 cursor-pointer font-medium transition"
+              className={`font-medium transition cursor-pointer ${
+                index === links.length - 1
+                  ? "text-cyan-400"
+                  : "text-white hover:text-cyan-400"
+              }`}
             >
               <a href={`#${text.toLowerCase()}`}>{text}</a>
             </li>
@@ -29,20 +34,24 @@ const Navbar = () => {
 
         {/* Mobile menu toggle */}
         <div
-          className="md:hidden text-2xl cursor-pointer text-gray-700"
+          className="md:hidden text-2xl cursor-pointer text-white"
           onClick={() => setNavOpen(!navOpen)}
         >
           {navOpen ? <FaTimes /> : <FaBars />}
         </div>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile Menu */}
       {navOpen && (
-        <ul className="md:hidden flex flex-col items-center bg-white shadow px-4 py-4">
-          {links.map(({ id, text }) => (
+        <ul className="md:hidden flex flex-col items-center bg-[#151515] border-t border-gray-700 px-4 py-4">
+          {links.map(({ id, text }, index) => (
             <li
               key={id}
-              className="py-2 text-gray-700 hover:text-cyan-400 font-medium transition"
+              className={`py-3 font-medium transition w-full text-center ${
+                index === links.length - 1
+                  ? "text-cyan-400"
+                  : "text-white hover:text-cyan-400"
+              }`}
             >
               <a onClick={() => setNavOpen(false)} href={`#${text.toLowerCase()}`}>
                 {text}
