@@ -63,7 +63,7 @@ const Home = () => {
 
           {/* Download Button */}
           <a
-            href="./public/images/RESUME.pdf"
+            href="./images/RESUME.pdf"
             download
             className="inline-block px-6 py-3 bg-cyan-400 text-white font-semibold rounded-xl hover:bg-cyan-600 transition"
           >
@@ -75,7 +75,7 @@ const Home = () => {
         <div className="relative mt-10 md:mt-0 md:ml-10">
           <div className="w-220 h-220 rounded-xs blur-xl absolute -z-10"></div>
           <img
-            src="./public/images/Hero.jpg"
+            src="./images/Hero.jpg"
             alt="Goutam Jha"
             className="w-100 h-80 object-cover rounded-xl"
           />
