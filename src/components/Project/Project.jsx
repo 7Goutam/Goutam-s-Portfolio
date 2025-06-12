@@ -6,7 +6,7 @@ const projects = [
       tech: ["MongoDB", "Node.js", "Express"],
       demoLink: "https://twond-year-main-project.onrender.com/listings",
       codeLink: "https://github.com/7Goutam/2nd-Year-main-Project.git",
-      image: "./public/images/WanderLust.png",
+      image: "./images/WanderLust.png",
     },
     {
       id: 2,
@@ -15,7 +15,7 @@ const projects = [
       tech: ["React", "TailwindCSS" ],
       demoLink: "https://7goutam.github.io/E-Commerce-Frontend/",
       codeLink: "https://github.com/7Goutam/E-Commerce-Frontend.git",
-      image: "./public/images/E-Commerce.png", // replace with real image
+      image: "./images/E-Commerce.png", // replace with real image
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ const projects = [
       tech: ["React", "TailwindCSS", "MongoDB", "NodeJs"],
       demoLink: "#",
       codeLink: "https://github.com/7Goutam/Book_Store-Site.git",
-      image: "./public/images/BookStore.jpg",
+      image: "./images/BookStore.jpg",
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ const projects = [
       tech: ["React", "TailwindCSS"],
       demoLink: "https://dice-game-b5ud.vercel.app/",
       codeLink: "https://github.com/7Goutam/Dice-Game.git",
-      image: "./public/images/Dice Game.png",
+      image: "./images/Dice Game.png",
     },
     {
       id: 5, 
@@ -42,7 +42,7 @@ const projects = [
       tech: ["HTML", "CSS", "JavaScript" ],
       demoLink: "https://7goutam.github.io/Simon-Game/",
       codeLink: "https://github.com/7Goutam/Simon-Game.git",
-      image: "./public/images/Simon's Game.png",
+      image: "./images/Simon's Game.png",
     },
   ];
  
