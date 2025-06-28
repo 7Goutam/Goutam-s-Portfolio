@@ -10,6 +10,15 @@ const projects = [
     },
     {
       id: 2,
+      title: "SKINCARE ",
+      description: "This is fully Responsive  Premium Frontend Website.",
+      tech: ["React", "TailwindCSS", "Responsive",],
+      demoLink: "https://skincare-three-iota.vercel.app/",
+      codeLink: "https://github.com/7Goutam/Skincare",
+      image: "./images/Skincare.png",
+    },
+    {
+      id: 3,
       title: "E-commerce Frontend",
       description: "A modern UI for an e-commerce site using React and Tailwind.",
       tech: ["React", "TailwindCSS" ],
@@ -18,7 +27,7 @@ const projects = [
       image: "./images/E-Commerce.png", // replace with real image
     },
     {
-      id: 3,
+      id: 4,
       title: "Book Store",
       description: "This is MERN Stack Website.",
       tech: ["React", "TailwindCSS", "MongoDB", "NodeJs"],
@@ -27,7 +36,7 @@ const projects = [
       image: "./images/BookStore.jpg",
     },
     {
-      id: 4,
+      id: 5,
       title: "Dice Game",
       description: "This Game is for understanding of React-Vite",
       tech: ["React", "TailwindCSS"],
@@ -36,7 +45,7 @@ const projects = [
       image: "./images/Dice Game.png",
     },
     {
-      id: 5, 
+      id: 6, 
       title: "Simons Game",
       description: "This Game is for understanding of JS.",
       tech: ["HTML", "CSS", "JavaScript" ],
